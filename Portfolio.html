@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="About.css">
+    <link rel="stylesheet" href="Skills.css">
+    <link rel="stylesheet" href="Achievement.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="Education.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider">
+                </label>
+                <span id="theme-label">Light Mode</span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="content-wrapper">
+            <div class="image-container">
+            <img src="My Image.jpg" alt="My Image" class="profile-image">
+            
+        </div>
+        <div class="text-container">
+            <h1 class="animated-text">Hello, I'm Priyadharshini Elumalai!</h1>
+            <p>Graduate Trainee at Psiog Digital</p>
+           </div>
+        </div>
+    </section>
+
+
+   
+
+    <section id="About">
+        <div class="About-container">
+        <div class ="About-item">
+        <h2>Description</h2>
+        <p>I am Priyadharshini Elumalai,    Active and Enthusiastic Girl,   Currently working in Psiog Digital as Graduate Trainee.   My Family contains Four members, Father,Mother,Brother and Myself.My Father is doing farming in our native, My mother is a HomeMaker, My Elder Brother is working in a Finance Department. </p>
+        </div>
+        <div class ="About-item">
+            <img src="LifeatPsiog.jpg" alt="Life@PsiogImage " class="profile-pic">
+        <h2>LifeAtPsiog</h2>
+        <p>It's been a month as a Graduate Trainee Here,Explored much Technologies ,Felt really happy to be a part in the 10 years of Psiog Digital Event.Waiting Ahead for more interesting Journey !!!!</p>
+        </div>
+        <div class ="About-item">
+        <img src="personal interest.jpg" alt="Personal Interest Image">
+        <h2>Personal Interest</h2>
+        <p>My Personal Interests includes Gardening and Music,Being Born and Bought up in Village,I love gardening and visiting the farm fields often, In my free time I used to listen to the music,along with that started trying cover songs,then it became as a hobby for me </p>
+        </div>
+    </div>
+        </section> 
+    
+        <section id="education">
+            <h2>Education</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-button">Undergraduate(UG)</button>
+                    <div class="accordion-content">
+                        <h4>Bachelor of Technology in Information Technology (BTech)</h4>
+                        <p>Panimalar Engineering College,Chennai</p>
+                        <p>CGPA: 9.3</p>
+                        <p>Batch:2020-2024</p>
+
+                        
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Higher Secondary Education (HSE)</button>
+                    <div class="accordion-content">
+                        <h4>Shree Niketan Matriculation Higher Secondary School,Tiruvallur</h4>
+                        <p>Completed in 2020</p>
+                        <p>Percentage: 85</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Secondary Education (SE)</button>
+                    <div class="accordion-content">
+                        <h4>St.Mary's Matriculation Higher Secondary School,Perambakkam</h4>
+                        <p>Completed in 2018</p>
+                        <p>Percentage: 89</p>
+            </div>
+            </div>
+        
+            </div>
+        </section>
+
+    
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="card-container">
+                <div class="skill-card">
+                    <div class="card-front">
+                        <h3>HTML</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Proficiency: 80%</p>
+                        
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="card-front">
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Proficiency:70%</p>
+                        
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="card-front">
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Proficiency: 60%</p>
+                       
+                    </div>
+                </div>
+                    <div class="skill-card">
+                        <div class="card-front">
+                            <h3>Core Java</h3>
+                        </div>
+                        <div class="card-back">
+                            <p>Proficiency: 75%</p>
+                            </div>
+                </div>
+                <div class="skill-card">
+                    <div class="card-front">
+                        <h3>Software Testing</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Proficiency: 65%</p>
+                        
+        
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        
+
+        <section id="achievements" class="content-section">
+            <h2>Achievements</h2>
+        
+            <div class="achievements-container">
+                <div class="achievement-box">
+                    <h3>Technical Certifications</h3>
+                    <button class="details-btn" onclick="openModal('certificationModal')">View Details</button>
+                </div>
+        
+                <div class="achievement-box">
+                    <h3>Academic Achievements</h3>
+                    <button class="details-btn" onclick="openModal('achievementModal')">View Details</button>
+                </div>
+        
+                <div class="achievement-box">
+                    <h3>Projects</h3>
+                    <button class="details-btn" onclick="openModal('projectsModal')">View Details</button>
+                </div>
+        
+                <div class="achievement-box">
+                    <h3>Hackathons and Participations</h3>
+                    <button class="details-btn" onclick="openModal('hackathonsModal')">View Details</button>
+                </div>
+        
+                <div class="achievement-box">
+                    <h3>Publications</h3>
+                    <button class="details-btn" onclick="openModal('publicationsModal')">View Details</button>
+                </div>
+            </div>
+        
+            <!-- Modal for Technical Certifications -->
+            <div id="certificationModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('certificationModal')">&times;</span>
+                    <h3>Technical Certifications</h3>
+                    <ul>
+                        <li>NPTEL Java Certification</li>
+                        <li>SQL Fundamentals Certification from Nasscom</li>
+                        <li>Web Development Certification from 1stop IIT Bombay</li>
+                        <li>Zoho Young Creator</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Modal for Academic Achievements -->
+            <div id="achievementModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('achievementModal')">&times;</span>
+                    <h3>Academic Achievements</h3>
+                    <ul>
+                        <li>Awarded as a consecutive Academic RankHolder in High School</li>
+                        <li>Awarded a Prize for "Fixing the Bugs" Event By IEEE Team </li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Modal for Projects -->
+            <div id="projectsModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('projectsModal')">&times;</span>
+                    <h3>Projects</h3>
+                    <ul>
+                        <li>A Single E-Commerce Webpage using HTML,CSS</li>
+                        <li>Driver Alert System using Ardunio </li>
+                        <li>Detection of Deepfake video and Image forensics in warping Artifacts using Deep learning Techniques</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Modal for Hackathons and Competitions -->
+            <div id="hackathonsModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('hackathonsModal')">&times;</span>
+                    <h3>Hackathons and Competitions</h3>
+                    <ul>
+                        <li>Participated in Smart India Hackathon 2022</li>
+                        <li>Participated in IEEE Events </li>
+                        <li>Co-ordinated the Department Level Symposium</li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Modal for Publications -->
+            <div id="publicationsModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal('publicationsModal')">&times;</span>
+                    <h3>Publications</h3>
+                    <ul>
+                        <li>Published a Paper on Human Nail Disease Diagnosis Using Machine Learning Techniques</li>
+                        <li>Published a Paper on Detection of Deepfake video and Image forensics in warping Artifacts using Deep learning Techniques</li>
+                    </ul>
+                </div>
+            </div>
+        
+        </section>
+        
+
+        <section id="contact" class="content-section">
+            <h2>Contact</h2>
+            <div class="container">
+                
+                
+    
+                
+                
+                <div class="contact-info">
+                    <p><strong>Phone:</strong> +91 6385650652</p>
+                    <p><strong>Email:</strong> priyapde05@gmail.com</p>
+                    <p><strong>Address:</strong> Big Street,Narasingapuram,TamilNadu,India</p>
+                </div>
+                
+             
+                <div class="social-links">
+               <p>LinkedIn:<span>LinkedIn.com/https://www.linkedin.com/in/priyadharshini-elumalai-310985223</span></p>
+               <p>Instagram:<span>Instagram.com/https://www.instagram.com/priya_dharshini_elumalai?igsh=OWpyZnIyb2RhZ2wx</span></p>
+                </div>
+                
+              
+               
+            </div>
+        </section>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

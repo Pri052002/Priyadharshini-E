@@ -1,0 +1,49 @@
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    color: #333; 
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #a7bc5b; 
+}
+
+.contact-info {
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    color: #777; /* Light gray text color */
+}
+
+.contact-info strong {
+    color:#a7bc5b;
+}
+
+.social-links {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.social-links p {
+    margin: 10px 0;
+}
+
+.social-links span {
+    font-weight: bold;
+    color: red; /* Dark text color */
+}
+
+.social-links span:hover {
+    color:aquamarine; /* Slight color change on hover */
+    cursor: default; /* Keep the cursor as default */
+}
+
+.contact-info.dark-mode{
+    color: white;
+}
